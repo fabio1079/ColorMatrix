@@ -62,4 +62,4 @@ class Stage(gtk.DrawingArea):
           self.blocks[i][j].temp = t
           self.draw(self.blocks[i][j])
 
-    gtk.timeout_add(1, self.calculate) # 1000/60
+    gtk.timeout_add(1, self.calculate)
