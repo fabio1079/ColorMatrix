@@ -2,9 +2,9 @@ import gtk
 import stage
 
 BLOCK_TEMP_TOP = 40.0
-BLOCK_TEMP_RIGHT = 30.0
-BLOCK_TEMP_BOTTOM = 20.0
-BLOCK_TEMP_LEFT = 10.0
+BLOCK_TEMP_RIGHT = 40.0
+BLOCK_TEMP_BOTTOM = 40.0
+BLOCK_TEMP_LEFT = 40.0
 
 def main():
   window = gtk.Window()
